@@ -23,16 +23,13 @@ php artisan migrate
 
 php artisan db:seed
 
+php artisan key:generate
+
 ### criar link simbólico
 php artisan storage:link
-
-### Ngrok
-ngrok http 80 --host-header=cardapiovirtual
-
 
 ### Criar um link simbólico (symlink)
 cd ~/domains/nome-do-dominio/public_html
 ln -s /home/u233139548/domains/cardapiovirtual.space/storage/app/public storage
 
-
-ln -s //home/u359724568/domains/mcboutique.com.br/storage/app/public storage
+ln -s /home/u233139548/domains/you.tec.br/public_html/card/storage/app/public storage
